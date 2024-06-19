@@ -249,10 +249,6 @@ ul {
     flex-wrap: nowrap;
     animation: scroll 20s linear infinite;
 }
-/* .brandsLine {
-    flex-wrap: nowrap;
-    animation: scroll 20s linear infinite;
-} */
 
 @keyframes scroll {
     to {
@@ -298,6 +294,11 @@ ul {
     }
 }
 
+/* Features */
+.feature-img img {
+    width: 750px;
+    z-index: 3;
+}
 
 /*  testimonial  */
 .testimonial {
