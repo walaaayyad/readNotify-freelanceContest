@@ -696,10 +696,6 @@ footer {
     } */
 
     /* NAVBAR */
-
-    .navbar {
-        border: 2px solid red;
-    }
     .navbar-brand img {
     width: 60px !important;
 }
@@ -788,7 +784,7 @@ footer {
     }
     /* features */
     .features .feature-img {
-        margin-right: 15%;
+        margin-left: 15%;
     }
     .features .features-svg:last-child {
         width: 580px;
