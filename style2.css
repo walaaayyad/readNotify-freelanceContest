@@ -278,19 +278,18 @@ ul {
     padding-bottom: 100px;
 }
 .earthEmoji {
-    right: 40%;
     animation: moveUpDown 5s infinite both;
 }
 
 @keyframes moveUpDown {
-  0%{
-        top: -10%;
+    0% {
+        padding-bottom: 0%;
     }
-   50% { 
-        top: -25%;
+    50% {
+        padding-bottom: 15%;
     }
     100% {
-        top: -10%;
+        padding-bottom: 0%;
     }
 }
 
@@ -488,22 +487,21 @@ footer {
 ***************************************************/
 /* DESKTOP VERSION ONLY */
 
-@media (min-width: 1399.98px) {
+@media (min-width: 1400px) {
 
     .container {
         width: 84%;
         /* background-color: #FBC257; */
     }
-    /* .hero-info {
-        margin-top: 30%;
+    .about .col-lg-3 {
+        width: 24% !important;
     }
-    .info-box {
-    font-size: var(--text-light);
-    font-weight: var(--font-weight-light);
-    padding: 10px 15px;
+}
+
+@media (max-width: 1399.98px) {
+    .about .col-lg-3 {
+        width: 24% !important;
     }
-     */
-     
 }
 
 /*****************************************/
@@ -538,7 +536,7 @@ footer {
     }
 
     /* About */
-    .about .container-fluid .col-lg-3 {
+    .about .container .col-lg-3 {
     width: 45% !important; 
     margin-bottom: 15px !important;
     }
@@ -549,18 +547,7 @@ footer {
         width: 130px !important;
     }
     .earthEmoji {
-        right: 10%;
-    }
-    @keyframes moveUpDown {
-  0%{
-        top: 0%;
-    }
-   50% { 
-        top: -10%;
-    }
-    100% {
-        top: 0%;
-    }
+        /* right: 10%; */
     }
         /* testimonial */
 
@@ -612,6 +599,9 @@ footer {
 
     a.nav-link {
         margin-right: 7px 0;
+    }
+    a.nav-link:hover::after, a.nav-link.active::after {
+        width: 0px;
     }
 
     /* HERO */
