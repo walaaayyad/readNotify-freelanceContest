@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="./style2.css">
     <!-- AOS Animate -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- BOX Icons CSS -->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <!-- ICON -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./images/logoIcon.png" type="logo-icon">
@@ -26,78 +24,59 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img class="logo" src="./images/orangLogo.png" alt="brand">
+                <img class="logo" src="./images/Notify-blue2-logo.png" alt="brand">
             </a>
-            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class='bx bx-menu'></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav mx-auto">
                     <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     <a class="nav-link" href="#about">About</a>
-                    <a class="nav-link" href="#features"><span data-bs-target="#navbarNavAltMarkup" data-bs-toggle="collapse">Features</span></a>
+                    <a class="nav-link" href="#features">Features</a>
                     <a class="nav-link" href="#services">Services</a>
                 </div>
-                <a href="#" class="btn btn-primary shadow-none">Sign Up</a>
+                <div>
+                <a href="#" class="btn btn-primary shadow-none">Sign Up free</a>
+                </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="container">
-            <div class="row pt-5 align-items-center">
-                <div class="col-md-6">
-                    <div class="copy" data-aos="fade-up" data-aos-duration="2000">
-                        <div class="text-label">
-                            Unlock the power of efficiency and make tasks a breeze with our indispensable features.
-                        </div>
-                        <div class="text-hero-bold">
-                            Track Your Email
-                        </div>
-                        <div class="text-hero-regular">
-                            Find out when and where your emails get opened, and how many times they're read.
-                        </div>
-                        <ul class="mb-3">
-                            <li><i class="fa-solid fa-circle-check fs-4"></i>Track unlimited emails.</li>
-                            <li><i class="fa-solid fa-circle-check fs-4"></i>Track from any device you own></li>
-                            <li><i class="fa-solid fa-circle-check fs-4"></i>Instant and detailed read notifications.</li>
-                            <li><i class="fa-solid fa-circle-check fs-4"></i>The fastest way to find out if they're reading what you sent them.</li>
-                            <li><i class="fa-solid fa-circle-check fs-4"></i>Trusted by over 1M customers, including  96% of Fortune-100 companies</li>
-                        </ul>
+        <div class="container mb-5 pb-5">
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-md-10 text-center">
+                    <div class="text-label">
+                        Track Unlimited Emails with Ease
                     </div>
-                </div>
-                <div class="col-md-6 d-flex justify-content-md-center justify-content-lg-end flex-column">
-                    <div class="orange-circle"></div>
-                    <div class="hero-info">
-                        <div class="info-box glass-bg lead text-capitalize text-center"><span class="text-danger fw-bold">1M+ </span><br/> happy customers</div>
-                        <div class="info-box glass-bg lead text-capitalize text-center"><span class="text-danger fw-bold">250M+ </span><br/> tracked emails</div>
-                        <div class="info-box glass-bg lead text-capitalize text-center"><span class="text-danger fw-bold">2.5bn </span><br/> tracking records</div>
+                    <div class="text-hero-bold">
+                        Discover Who, When, and Where Your Emails Are Opened
                     </div>
-                    <div class="hero-img">
-                        <img src="./images/envelope-mail-open-communication-icon_24877-83666-removebg-preview.png" class="w-100" alt="img">
+                    <div class="text-hero-regular">
+                        <p class="lead">Join over 1 million registered users who trust ReadNotify Easy to use, accurate, detailed, reliable, private, and secure. It’s no wonder ReadNotify is the world's leading choice for tracking emails.</p>
                     </div>
-                    
-                </div>
-            </div>
-            <div class="row pb-5" data-aos="fade-up" data-aos-duration="2000">
-                <div class="col-sm-12 col-md-6 border-end">
-                    <div class="brands-textLine"><span class="fw-bold">Try our outlook add-in <br> <span class="text-danger bg-light px-2">for free</span></span> - It works for all Microsoft and Hotmail accounts.</div>
-                     <button class="hero-btn bg-warning"><img src="./images/social_11516002.png" style="width: 30px; margin-top: -5px; margin-bottom: -5px; margin-right: 3px;" alt="">outlook add-in</button> <!-- <a href="https://www.freepik.com/icon/social_11516002#fromView=search&page=1&position=9&uuid=e65021f7-baa8-4810-9183-00b028da9039">Icon by popcornarts</a> -->
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="brands-textLine"><span class="fw-bold">Try our gmail add-in  <br> <span class="text-danger bg-light px-2">for free</span> </span> - It works for all Google workspace accounts.</div>
-                    <button class="hero-btn"><img src="./images/gmail_5968534.png" style="width: 30px; margin-top: -5px; margin-bottom: -5px; margin-right: 7px;" alt="">gmail add-in</button> <!-- <a href="https://www.freepik.com/search">Icon by Freepik</a> -->
+
+                    <div class="hero-btns mt-5">
+                        <button class="btn btn-primary me-3"><img src="./images/social_11516002.png" alt="">Free Outlook Add-in</button> <!-- <a href="https://www.freepik.com/icon/social_11516002#fromView=search&page=1&position=9&uuid=e65021f7-baa8-4810-9183-00b028da9039">Icon by popcornarts</a> -->
+                        <button class="btn btn-secondary"><img src="./images/gmail_5968534.png" alt="">Free Gmail Add-in</button> <!-- <a href="https://www.freepik.com/search">Icon by Freepik</a> -->
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- Brands Section -->
-    <section class="brands">
-        <div class="container">
+        <div class="container hero-info mt-5">
+            <div class="row justify-content-center">
+                <div class="col-10 d-flex flex-row align-items-center justify-content-center">
+                    <div class="lead text-capitalize text-center border-end border-dark pe-5"><span class="text-danger fw-bold">1M+ </span><br/> happy customers</div>
+            <div class="lead text-capitalize text-center border-end border-dark px-5"><span class="text-danger fw-bold">250M+ </span><br/> tracked emails</div>
+            <div class="lead text-capitalize text-center ps-5"><span class="text-danger fw-bold">2.5bn </span><br/> tracking records</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
             <div class="row pt-3">
                 <div class="scroller col-md-12 my-3 text-center">
                     <ul class="scroller__inner d-flex justify-content-between">
@@ -108,122 +87,159 @@
                         <li><img src="./images/androidLogo-removebg-preview.png" alt=""></li>
                         <li><img src="./images/chromeLogo-removebg-preview.png" alt=""></li>
                         <li><img src="./images/appleLogo-removebg-preview.png"  alt=""></li>
+                        <li><img src="./images/app-logo.png"  alt=""></li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section class="brands">
+        <!-- <div class="container">
+            <div class="row pt-3">
+                <div class="scroller col-md-12 my-3 text-center">
+                    <ul class="scroller__inner d-flex justify-content-between">
+                        <li><img src="./images/gmail_5968534.png" alt=""></li>
+                        <li><img src="./images/windLogo-removebg-preview.png" alt=""></li>
+                        <li><img src="./images/social_11516002.png" alt=""></li>
+                        <li><img src="./images/googleLogo-removebg-preview.png" alt=""></li>
+                        <li><img src="./images/androidLogo-removebg-preview.png" alt=""></li>
+                        <li><img src="./images/chromeLogo-removebg-preview.png" alt=""></li>
+                        <li><img src="./images/appleLogo-removebg-preview.png"  alt=""></li>
+                        <li><img src="./images/app-logo.png"  alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- test section -->
+    <section class="test-section" data-aos="fade-up" data-aos-duration="2000">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-10 col-lg-6 getStarted">
+                    <h2>Get Started Today</h2>
+                    <p class="lead mt-4"><i class="fa-solid fa-circle-check fs-4"></i> Enhance your email tracking experience effortlessly with our intuitive add-ins.</p>
+                    <p class="lead mt-4"><i class="fa-solid fa-circle-check fs-4"></i> Know immediately who's opening your emails and when.</p>
+                    <p class="lead mt-4"><i class="fa-solid fa-circle-check fs-4"></i> Discover the locations of your recipients and how many times they've read your messages.</p>
+                    <p class="lead mt-4"><i class="fa-solid fa-circle-check fs-4"></i> Track from iPhone, Android, Tablet, PC, Mac, and even Linux.</p>
+                    <p class="lead mt-4"><i class="fa-solid fa-circle-check fs-4"></i> Your emails remain private; we don't access them.</p>
+                </div>
+                <div class="col-md-10 col-lg-6 d-flex flex-row">
+                    <div class="test-section-box d-flex flex-column align-items-center justify-content-evenly">
+                        <div class="fw-bold">Free Gmail Add-in</div>
+                        <img src="./images/gmail_5968534.png" alt="">
+                        <p class="lead ps-5">Works seamlessly for all Google Workspace accounts on desktop, mobile, and web.</p>
+                        <button class="btn btn-primary">Install Gmail Add-in</button> 
+                    </div>
+                    <div class="test-section-box d-flex flex-column align-items-center justify-content-evenly">
+                        <div class="fw-bold">Free Outlook Add-in </div>
+                        <img src="./images/social_11516002.png" width="40px" alt="">
+                        <p class="lead ps-5">Compatible with all Microsoft and Hotmail accounts on web, desktop, and mobile.</p>
+                        <button class="btn btn-primary">Install Outlook Add-in</button> 
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container pt-5" data-aos="fade-up" data-aos-duration="2000">
-            <div class="row justify-content-center">
-                <div class="col-12 d-flex flex-column align-items-center justify-content-center">
-                    <img src="./images/logoIcon.png" width="60px" alt="">
-                    <h2 class="section-main-title text-center mb-4">Why Choose ReadNotify ?</h2>
-                    <p class="lead text-center">Join over 1 million registered users who trust ReadNotify Easy to use, accurate, detailed, reliable, private, and secure. It’s no wonder ReadNotify is the world's leading choice for tracking emails.</p>
+    <section id="about" class="about" data-aos="fade-up" data-aos-duration="2000">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="3000">
+                <h2 class="section-main-title text-center mb-5">Why Choose ReadNotify ?</h2>
+                <div class="col-md-3 about-text-box shadow bg-white mx-2 text-center">
+                    <img src="./images/trust_15556184.png" alt="">
+                    <h4 class="my-3">Trusted by Leading Businesses</h4>
+                    <p class="lead">Join millions who rely on our service for comprehensive email tracking.</p>
+                </div>
+                <div class="col-md-3 about-text-box shadow bg-white mx-2 text-center">
+                    <img src="./images/process_11213491.png" alt="">
+                    <h4 class="my-3">Seamless Integration</h4>
+                    <p class="lead">Works directly within your existing email program—no additional software required.</p>
+                </div>
+                <div class="col-md-3 about-text-box shadow bg-white mx-2 text-center">
+                    <img src="./images/vision_6562327.png" alt="">
+                    <h4 class="my-3">Immediate Insights</h4>
+                    <p class="lead">Gain actionable data on your email engagement instantly.</p>
                 </div>
             </div>
         </div>
 
-        <div class="container mb-5" data-aos="fade-up" data-aos-duration="2000">
-            <div class="row justify-content-center mt-5" data-aos="fade-up" data-aos-duration="3000">
-                <div class="col-sm-10 col-md-5 col-lg-3 shadow p-3 mb-5 bg-body rounded border border-warning m-1">
-                    <p class="lead text-center pt-4"><span class="text-warning">Track unlimited emails</span> - works directly inside your existing email program (including Gmail, Outlook, and all others)</p>
-                </div>
-                <div class="col-sm-10 col-md-5 col-lg-3 shadow p-3 mb-5 bg-body rounded border border-info m-1">
-                    <p class="lead text-center pt-4"><span class="text-info">Track from your</span> iPhone, Android, Tablet, PC or Mac; even Linux - works immediately from every device you own.</p>
-                </div>
-                <div class="col-sm-10 col-md-5 col-lg-3 shadow p-3 mb-5 bg-body rounded border border-warning m-1">
-                    <p class="lead text-center pt-4"><span class="text-warning">Instant and detailed</span> read notifications give you everything you need to know about who, when, where, and what's opening your emails.</p>
-                </div>
-                <div class="col-sm-10 col-md-5 col-lg-3 shadow p-3 mb-5 bg-body rounded border border-info m-1">
-                    <p class="lead text-center pt-4"><span class="text-info">Easily adds</span> to all existing email programs, on PC/Mac, Apple/Android phones, and all tablets. IP Address, country and geographic location of your reader.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container about-experience justify-content-center" data-aos="fade-up" data-aos-duration="2000">
-            <div class="row my-4 justify-content-center">
-                <div class="col-md-10 col-lg-6 d-flex align-items-center justify-content-center">
-                    <h2 class="section-main-title m-0"><span class="about-experience-num text-warning">25 Years</span>of Leading Email<br/> Tracking Innovation: <br> Our Legacy of Expertise</h2>
-                </div>
-                <div class="col-md-10 col-lg-6 d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 w-100 d-flex text-center">
-                                <div class="about-experience-box box1">Private - we don't see your emails.</div>
-                                <div class="about-experience-box box2">Over 1M satisfied users, you can't go wrong!</div>  
-                            </div>
-                            <div class="col-12 w-100 d-flex text-center">
-                                <div class="about-experience-box box3">Silent, safe, and Invisible tracking.</div>
-                                <div class="about-experience-box box4">Your emails and headers look exactly the same as normal.</div>  
-                            </div>
+        <div class="container form shadow" data-aos="fade-up" data-aos-duration="2000">
+            <div class="row signUp-form justify-content-center">
+                <div class="col-md-10 col-lg-7 pt-5 px-5">
+                    <h2 class="text-white"><span class="about-experience-num">25 Years</span>of Leading Email<br/> Tracking Innovation: <br> Our Legacy of Expertise</h2>
+                        <div class="text-white ms-2 mt-4">
+                            <p class="lead"><i class="fa-solid fa-globe"></i>ReadNotify used in 193 of the earth's 195 countries</p>
+                            <p class="lead"><i class="fa-solid fa-award"></i>We guarantee with 100% confidence that nothing in the world is more reliable and accurate than ReadNotify.</p>
+                            <p class="lead"><i class="fa-solid fa-face-smile"></i>From individuals to corporations, governments, NGO's and everything in-between, millions of satisfied users rely on ReadNotify to accurately track where their emails go after sending.</p>
                         </div>
-                    </div>
+                </div>
+                <div class="col-md-10 col-lg-5 form d-flex justify-content-center align-items-center py-5">
+                    <form>
+                        <h3>Sign up now - Free!</h3>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                
+                        <button type="submit" class="btn btn-primary mt-4">Submit</button>
+                        <button class="btn btn-secondary d-block mt-4"><img src="./images/googleLogo-removebg-preview.png" width="30" alt=""> Sign in with Google</button>
+                        <button class="btn btn-secondary d-block mt-4"><img src="./images/windLogo-removebg-preview.png" width="30" alt=""> Sign in with Microsoft</button>
+                    </form>
                 </div>
             </div>
-        </div>
-        
-        <div class="container ps-5" data-aos="fade-up" data-aos-duration="2000">
-            <div class="row">
-                <div class="col-md-9 text-start">
-                    <h3 class="my-5">You can rely on ReadNotify</h3>
-                    <p class="lead"><i class="fa-solid fa-globe"></i>ReadNotify used in 193 of the earth's 195 countries</p>
-                    <p class="lead"><i class="fa-solid fa-award"></i>We guarantee with 100% confidence that nothing in the world is more reliable and accurate than ReadNotify.</p>
-                    <p class="lead"><i class="fa-solid fa-face-smile"></i>From individuals to corporations, governments, NGO's and everything in-between, millions of satisfied users rely on ReadNotify to accurately track where their emails go after sending.</p>
-                </div>
-                <div class="col-md-3 d-flex align-items-end">
-                    <img class="earthEmoji emoji" src="./images/3d-rendering-ui-icon_23-2149182277-removebg-preview.png" alt="">
-                </div>
-            </div>
-            
         </div>
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="features" data-aos="fade-up" data-aos-duration="2000">
+    <section id="features" class="features pt-5" data-aos="fade-up" data-aos-duration="2000">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="small-section-title text-uppercase text-center fs-4 lead">features</div>
-                <h2 class="section-main-title my-5 text-center">what make ReadNotify <span class="text-warning">unique</span> from others</h2>
-
-                <div class="feature-img col-md-12 col-lg-4">
-                    <img src="./images/feature-img-removebg-preview.png" alt=""> 
+                <h2 class="section-main-title my-5 text-center">What Makes ReadNotify <span>Unique</span> From Others</h2>
+                <div class="col-3 featurs-box d-flex flex-column align-items-center justify-content-center ps-5">
+                    <i class="fa-solid fa-bell d-block text-center mb-4"></i>
+                    <h4>Instant Notifications:</h4>
+                    <p>Receive detailed notifications the moment your email is opened, including the exact time and date.</p>
                 </div>
-                <div class="col-md-12 col-lg-7">
-                    <ul class="text-dark">
-                        <li>
-                            <i class="fa-solid fa-bell"></i>
-                            <strong>Instant Notifications:</strong>
-                            <p>Receive detailed notifications the moment your email is opened, including the exact time and date.</p>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-location-dot"></i>
-                            <strong>Location Tracking:</strong>
-                            <p>Identify the IP address and approximate geolocation of your recipient, helping you detect potential scams.</p>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-circle-info"></i>
-                            <strong>Detailed Insights:</strong>
-                            <p>Know if your email was re-read, when, and how many times it was viewed.</p>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-bullhorn"></i>
-                            <strong>Forwarding Awareness:</strong>
-                            <p>Track if your email was forwarded and to how many recipients.</p>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-envelope-circle-check"></i>
-                            <strong>Verification:</strong>
-                            <p>Verify the authenticity of emails received by tracking their origin and sender information.</p>
-                        </li>
-                    </ul>
+                <div class="col-3 featurs-box d-flex flex-column align-items-center justify-content-center p-4 ps-5">
+                    <i class="fa-solid fa-location-dot d-block text-center mb-4"></i>
+                    <h4>Location Tracking:</h4>
+                    <p>Identify the IP address and approximate geolocation of your recipient, helping you detect potential scams.</p>
                 </div>
+                <div class="col-3 featurs-box d-flex flex-column align-items-center justify-content-center p-4 ps-5">
+                    <i class="fa-solid fa-circle-info d-block text-center mb-4"></i>
+                    <h4>Detailed Insights:</h4>
+                    <p>Know if your email was re-read, when, and how many times it was viewed.</p>
+                </div>
+                <div class="col-3 featurs-box d-flex flex-column align-items-center justify-content-center p-4 ps-5">
+                    <i class="fa-solid fa-envelope-circle-check d-block text-center mb-4"></i>
+                    <h4>Verification:</h4>
+                    <p>Verify the authenticity of emails received by tracking their origin and sender information.</p>
+                </div>
+            </div>
+        </div>
 
-                <!-- <div class="feature-img col-md-6 d-flex align-items-end justify-content-center">
-                    <img src="./images/feature-img-removebg-preview.png" alt="">
-                </div> -->
+        <div class="container features-tracking mt-5">
+            <div class="row justify-content-center pt-5 border">
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <img src="./images/googleLogos-removebg-preview.png" width="60%" alt="">
+                </div>
+                <div class="col-md-4 d-flex flex-column align-items-center justify-content-center text-center">
+                    <h4>Our tracking adds into your email</h4>
+                    <p class="lead">Works natively inside all popular email programs, On all platforms, Including mobile </p>
+                    <div class="d-flex">
+                        <button class="btn btn-primary me-3 shadow p-3 mb-5 rounded">Install Google add-in</button>
+                        <button class="btn btn-secondary shadow p-3 mb-5 rounded">Install Microsoft add-in</button>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <img src="./images/microsoftLogos-removebg-preview.png" width="60%" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -710,36 +726,26 @@
 
     <!-- Footer Section -->
     <footer>
-        <div class="container">
+        <div class="container py-5">
             <div class="row justify-content-center">
-                <div class="col-md-10 text-center"><img src="./images/whiteLogo.png" width="200px" alt=""></div>
-
-                <div class="row align-items-center justify-content-center text-light">
-                    <div class="footer-about col-md-4 border-end">
-                        <h5>About</h6>
-                        <p>Join over 1 million registered users who trust ReadNotify Easy to use, accurate, detailed, reliable, private, and secure. It’s no wonder ReadNotify is the world's leading choice for tracking emails.</p>
-                    </div>
-                    <div class="footer-menu col-md-3 border-end d-flex flex-column align-items-center">
-                        <h5 class="ms-4">Menu</h5>
-                        <ul>
-                            <li><a class="footer-nav-link" href="home">Home</a></li>
-                            <li><a class="footer-nav-link" href="about">About</a></li>
-                            <li><a class="footer-nav-link" href="features">Features</a></li>
-                            <li><a class="footer-nav-link" href="services">Services</a></li>
-                            <li><a>&nbsp;</a></li> <!-- space -->
-                        </ul>
-                    </div>
-                    <div class="col-md-5 text-center mb-3">
-                        <h5>Try now <span class="text-warning border border-warning px-2">for free</span></h5>
-                        <div class="footer-btns">
-                            <button class="footer-btn"><img src="./images/social_11516002.png" style="width: 30px; margin-top: -5px; margin-bottom: -5px; margin-right: 3px;" alt="">outlook add-in</button>
-                            <button class="footer-btn"><img src="./images/gmail_5968534.png" style="width: 30px; margin-top: -5px; margin-bottom: -5px; margin-right: 7px;" alt="">gmail add-in</button>
-                        </div>
-                    </div>
+                <div class="col-md-8">
+                    <img src="./images/newLogoWhite.png" width="200px" alt="">
+                    <p class="lead mt-3">Start now and join over 1 million registered users who trust ReadNotify</p>
+                    <button class="btn btn-secondary me-3"><img class="me-3" src="./images/social_11516002.png" width="40px" alt=""><span class="text-danger">Free</span> Outlook Add-in</button>
+                    <button class="btn btn-secondary"><img class="me-3" src="./images/gmail_5968534.png" width="40px" alt=""><span class="text-danger">Free</span> Gmail Add-in</button>
                 </div>
-
+                <div class="col-md-4 footer-menu border-start">
+                    <h5 class="ms-4">Menu</h5>
+                    <ul>
+                        <li><a class="footer-nav-link" href="home">Home</a></li>
+                        <li><a class="footer-nav-link" href="about">About</a></li>
+                        <li><a class="footer-nav-link" href="features">Features</a></li>
+                        <li><a class="footer-nav-link" href="services">Services</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+        <div class="text-center py-2 bg-dark">2024 &copy; all rights reversed to ReadNotify</div>
     </footer>
 
     <script src="./main.js"></script>
