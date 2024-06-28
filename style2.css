@@ -283,6 +283,7 @@ ul {
 }
 .test-section-box:nth-child(1) {
     background-color: #e6ebeb;
+    border-left: 1px solid #eee;
 }
 .test-section-box:nth-child(1) img, 
 .test-section-box:nth-child(1) .btn:hover {
@@ -301,6 +302,7 @@ ul {
     margin-left: -5%;
     margin-top: 10%;
     background-color: #cfe6eb;
+    border-left: 1px solid #deebec;
 }
 
 /*   About Section   */
@@ -425,12 +427,15 @@ ul {
 }
 .featurs-box {
     margin: 5px;
+    border-radius: 20px;
     background-color: #e6ebeb;
     box-shadow: 30px 30px 30px -10px rgba(0, 0, 0, 0.15), inset 15px 15px 10px rgba(255, 255, 255, 0.75), -15px -15px 35px rgba(255, 255, 255, 0.55), inset -1px -1px 10px rgba(0, 0, 0, 0.2);
+    border-left: 1px solid #eee;
 }
 .featurs-box:nth-child(3),
 .featurs-box:nth-child(5) {
     background-color: rgb(207, 230, 235);
+    border-left: 1px solid #deebec;
 }
 .features-tracking {
     background: linear-gradient(rgba(207, 230, 235, 0.7), rgba(207, 230, 235, 0.7)), url('./images/gradient-blue-background_23-2149350177.jpeg');
@@ -621,6 +626,10 @@ footer .btn {
     }
     .test-section-box .ps-3 {
     padding-left: 2rem !important;
+    }
+    /* feature */
+    .features-tracking button {
+        margin: 10px !important;
     }
 }
 /************************************************/
