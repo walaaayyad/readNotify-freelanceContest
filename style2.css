@@ -409,7 +409,6 @@ ul {
 .features {
     margin-top: 70px;
     padding-bottom: 100px;
-    border-bottom: 0.5px solid var(--blue-dark);
 }
 .features .section-main-title span {
     color: var(--blue-medium);
@@ -581,7 +580,7 @@ footer {
 }
 /* scroll up btn */
 .scrollUpBtn {
-    font-size: 35px;
+    font-size: 25px;
     opacity: 1;
     position: fixed;
     bottom: 20px;
@@ -614,6 +613,9 @@ footer {
     .test-section .getStarted {
         padding-left: 55px;
     }
+    .test-section-box .ps-3 {
+    padding-left: 2rem !important;
+    }
 }
 /************************************************/
 @media (max-width: 1399.98px) {
@@ -637,6 +639,9 @@ footer {
     }
     .test-section .btn-primary {
         width: 200px;
+    }
+    .test-section-box .ps-3 {
+    padding-left: 1.7rem !important;
     }
 }
 
@@ -887,11 +892,19 @@ footer {
     /* test */
     .test-section .btn-primary {
         width: 160px;
+        height: 40px;
         font-size: 12px;
+    }
+    .test-section-box .ps-3 {
+    padding-left: 1.5rem !important;
+    }
+    .test-section-box-title {
+        font-size: 15px;
     }
 
     /* about */
     .about {
+        padding-top: 60px;
         padding-bottom: 25px;
         margin-top: 0px;
     }
@@ -939,7 +952,7 @@ footer {
     }
     /* Services */
     .services {
-        margin-top: 0;
+        margin-top: 30;
     }
     .services .blue-email {
         top: 275px;
@@ -966,7 +979,7 @@ footer {
     }
     .features-tracking button {
         font-size: var(--text-light);
-        width: 200px;
+        width: 185px;
     }
     .feature-img {
         justify-content: center;
