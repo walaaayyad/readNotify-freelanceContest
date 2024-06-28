@@ -165,6 +165,9 @@ a.nav-link:hover::after, a.nav-link.active::after {
     border-radius: 10px;
     margin: auto;
 }
+.hero-btns .btn {
+    width: 275px;
+}
 .hero-btns img {
     width: 40px; 
     margin-top: -5px;
@@ -633,12 +636,15 @@ footer {
     .features .col-3 {
     width: 45%;
     }
+    .features-tracking button {
+        margin: 10px !important;
+    }
     /* test section */
     .test-section .getStarted {
         padding-left: 55px;
     }
     .test-section .btn-primary {
-        width: 200px;
+        width: 235px;
     }
     .test-section-box .ps-3 {
     padding-left: 1.7rem !important;
@@ -799,6 +805,11 @@ footer {
         width: 20%;
         margin-bottom: 10px;
     }
+    .features-tracking button {
+        font-size: var(--text-light);
+        width: 230px;
+        margin: 7px !important;
+    }
 
     /* testimonial */
     .testimonial-box {
@@ -885,18 +896,19 @@ footer {
         margin-left: 20%;
     }
     .brands-textLine {
-    width: 55%;
-    margin: auto;
-    margin-top: 20px;
+        width: 55%;
+        margin: auto;
+        margin-top: 20px;
     }
     /* test */
     .test-section .btn-primary {
-        width: 160px;
+        width: 180px;
+        margin-left: 10px;
         height: 40px;
         font-size: 12px;
     }
     .test-section-box .ps-3 {
-    padding-left: 1.5rem !important;
+        padding-left: 1.5rem !important;
     }
     .test-section-box-title {
         font-size: 15px;
@@ -977,10 +989,6 @@ footer {
                 width: 80%;
         padding: 5px 20px 15px 30px !important;
     }
-    .features-tracking button {
-        font-size: var(--text-light);
-        width: 185px;
-    }
     .feature-img {
         justify-content: center;
         margin-left: 17%;
@@ -990,6 +998,10 @@ footer {
     .features .fa-solid {
         font-size: 25px;
         margin-top: 15px;
+    }
+    .features-tracking button {
+        width: 230px;
+        height: 45px;
     }
    
     /* footer */
